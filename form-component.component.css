@@ -1,0 +1,23 @@
+.form-class {
+    display: flex;
+    padding: 5px 50px;
+    flex-direction: column;
+    text-align: left;
+    margin: 0;
+    
+}
+
+.alert-danger {
+    background-color: red;
+}
+
+h1 {
+    padding: 10px 50px;
+}
+.btn {
+    width: 10%;
+}
+input.ng-invalid.ng-touched {
+    border: 1px solid #d73232;
+    box-shadow: 0 0 7px #a39494;
+}

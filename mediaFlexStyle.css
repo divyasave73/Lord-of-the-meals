@@ -1,0 +1,40 @@
+/* body {
+    background: rgb(238, 166, 166);
+    font: Arial;
+}
+
+@media  (max-width:600px) {
+    body {
+        background: green;
+    }
+
+    #smartphone h1 {
+        display: block;
+    }
+}
+@media ((min-width:601px) and (max-width:800px)) {
+    body {
+        background: blue;
+    }
+
+    #widescreen h1 {
+        display: block;
+    }
+} */
+* {
+    box-sizing: border-box;
+}
+
+.item {
+    background: rgb(243, 242, 242);
+    border: 1px solid black;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    width:200px;
+}
+.flex-container {
+display: flex;  
+flex-direction: column;
+flex-wrap: wrap;
+}

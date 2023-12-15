@@ -1,0 +1,40 @@
+
+/* .wallpaper{
+    background-image: url('/assets/Images/cafe/3.jpg');
+    height: 40rem;
+    width: 100rem;
+    display: flex;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-content: center;
+    padding: 0;
+    flex-wrap: wrap;
+} */
+.home-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style: none;
+    align-items: center;
+    padding: 0;
+}
+.food-items > li a {
+    height: 25rem;
+    width: 25rem;
+    border: 1px solid whitesmoke;
+    border-radius: 1rem;
+    margin: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    color: coral;
+}
+.food-items li a:hover {
+    opacity: 0.9;
+}

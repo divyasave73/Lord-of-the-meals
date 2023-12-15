@@ -1,0 +1,16 @@
+<div class="home-container">
+    <img src="/assets/Images/cafe/3.jpg" alt="wallpaper">
+    <ul class="food-items">
+        <li *ngFor="let food of foods">
+            <a href="#">
+                <img src="{{food.imageUrl}}" alt="food images">
+                <div class="content">
+                    <div class="name">
+                        {{food.name}}
+                    </div>
+                    <span class="favorite {{food.favorite?'':'not'}}">❤️</span>
+                </div>
+            </a>
+        </li>
+    </ul>
+</div>
